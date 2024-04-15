@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="about-right">
             <h3>ABOUT UNIVERSITY</h3>
-            <H2>NURTURING Tomorrow's Leader Today</H2>
+            <h2>NURTURING Tomorrow's Leader Today</h2>
             <p>Embark on a transformative educational journey with our university's comprehensive education 
                 programs.Our cutting-edge curriculm is design to empower students 
                 with the knowlegde, skills and exeperiences needed to excel 
@@ -23,10 +23,8 @@ const About = () => {
                 <p>Whether you aspire to become a teacher, administrator, counselor, or educational leader, 
                 our diverse range of programs offers the perfect pathway to achieve your goals and unlock your
                 full potential in shaping the future of education.</p>
-        </div>
-      
+        </div>      
     </div>
   )
 }
-
 export default About
