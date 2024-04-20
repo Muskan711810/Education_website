@@ -56,22 +56,18 @@ nav ul li {
         transition: 0.5s;
     }
     
-    .show-mobile-menu {
-        margin-left: 2rem;
-        padding-left: 2rem;
-    }
-
-    nav ul.show-mobile-menu {
-        display: flex; /* Show the navigation links when the mobile menu is active */
-    }
-    
-    nav ul li {
-        margin: 25px 0; /* Add space between navigation links */
-    }
-    
     .menu-icon {
         display: block; /* Show the menu icon */
         width: 30px;
         cursor: pointer;
+    }
+
+    /* Show the navigation links when the mobile menu is active */
+    nav ul.show-mobile-menu {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 25px 0; /* Add space between navigation links */
     }
 }
