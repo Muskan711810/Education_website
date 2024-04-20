@@ -1,62 +1,67 @@
-.about
-{
+/* Base styles for .about */
+.about {
     margin: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
 }
-.about-left
-{
+
+.about-left {
     flex-basis: 40%;
     position: relative;
-
 }
-.about-right
-{
+
+.about-right {
     flex-basis: 56%;
 }
-.about-img
-{
+
+.about-img {
     width: 100%;
     border-radius: 10px;
 }
-.play-icon
-{
+
+.play-icon {
     width: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.about h3{
+
+.about h3 {
     font-weight: 600;
-    font-weight: 16px;
+    font-size: 16px; /* Fix typo: Change font-weight to font-size */
     color: #212EA0;
 }
-.about h2{
+
+.about h2 {
     font-size: 35px;
     color: #000F38;
     margin: 10px 0;
     max-width: 400px;
 }
-.about p{
+
+.about p {
     color: #676767;
     margin-bottom: 15px;
 }
 
-/* media query */
-@media (max-width: 800px){
-    .about{
-        flex-direction: column;
-        padding: 2rem
+/* Media query for smaller screens */
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        margin: 20px auto; /* Adjust margin for smaller screens */
+        padding: 2rem;
     }
-    .about-left{
+    
+    .about-left {
         flex-basis: 100%;
-        margin: 20px;
-        order: 2;
+        margin: 20px 0; /* Adjust margin for smaller screens */
+        order: 2; /* Change order of .about-left to appear below .about-right */
     }
-    .about-right{
+    
+    .about-right {
         flex-basis: 100%;
     }
 }
