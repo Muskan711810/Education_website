@@ -1,4 +1,4 @@
-/* Base styles for navbar */
+* Base styles for navbar */
 nav {
     width: 100%;
     color: white;
@@ -56,6 +56,11 @@ nav ul li {
         transition: 0.5s;
     }
     
+    .show-mobile-menu {
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
     nav ul.show-mobile-menu {
         display: flex; /* Show the navigation links when the mobile menu is active */
     }
@@ -70,4 +75,3 @@ nav ul li {
         cursor: pointer;
     }
 }
-
