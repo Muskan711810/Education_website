@@ -1,0 +1,55 @@
+/* RoboticsEducation.css */
+
+.robotics-education {
+    padding: 2rem;
+    max-width: 100dvh;
+}
+  
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+p {
+    margin-bottom: 15px;
+}
+  
+.images {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center align items */
+}
+  
+.images img {
+    width: 100%; /* Make images fill the available space */
+    max-width: 300px; /* Limit maximum width */
+    margin-right: 20px; /* Add some space between images */
+    margin-bottom: 20px; /* Add some space below images */
+}
+  
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column; /* Change to column direction on smaller screens */
+        align-items: center; /* Center align items */
+    }
+    
+    .images img {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Add some space below images */
+    }
+}
+  
+/* Adjust layout for larger screens */
+@media (min-width: 769px) {
+    .images {
+        flex-direction: row; /* Change to row direction on larger screens */
+        justify-content: flex-start; /* Align items to the start of the container */
+    }
+    
+    .images img {
+        margin-right: 20px; /* Add some space between images */
+        margin-bottom: 0; /* Remove bottom margin for images in row layout */
+    }
+}

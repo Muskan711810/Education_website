@@ -49,6 +49,7 @@
 @media (max-width: 800px){
     .about{
         flex-direction: column;
+        padding: 2rem
     }
     .about-left{
         flex-basis: 100%;
